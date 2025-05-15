@@ -34,7 +34,7 @@ class Koen {
       };
 
       const specialties = ["full-stack developement", "ai", "minecraft modding"];
-      const ide = ["vscode", "intellij", "windows notepad", "pycharm"];
+      const ide = ["vscode", "intellij", "windows notepad", "pycharm", "processing 4", "arduino IDE", "sublime text"];
 
       return { langs, specialties, ide };
     }
