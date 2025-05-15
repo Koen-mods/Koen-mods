@@ -1,16 +1,43 @@
-## Hi there 👋
+<h2 align="center">About Me</h2>
 
-<!--
-**Koen-mods/Koen-mods** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```ts
+type ContactInfo = [string, string];
+type LifeInfo = [string[], string[]];
+type CodingSkills = {
+  langs: {
+    expert: string[];
+    intermediate: string[];
+    learning: string[];
+  };
+  specialties: string[];
+  ide: string[];
+};
 
-Here are some ideas to get you started:
+class Koen {
+  class Attributes extends Koen {
+    get contact(): ContactInfo {
+      const email = "koenesmiley@gmail.com";
+      return email;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    get life(): LifeInfo {
+      const langs = ["Dutch", "English"];
+      const country = "Netherlands";
+      return [langs, country];
+    }
+
+    get coding(): CodingSkills {
+      const langs = {
+        expert: ["python", "js", "html", "processing"],
+        intermediate: ["arduino", "SQL", "java", "css"],
+        learning: ["c", "lua"]
+      };
+
+      const specialties = ["full-stack developement", "ai", "minecraft modding"];
+      const ide = ["vscode", "intellij", "windows notepad", "pycharm"];
+
+      return { langs, specialties, ide };
+    }
+  }
+}
+
