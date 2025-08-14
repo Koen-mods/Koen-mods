@@ -34,9 +34,9 @@ class Koen {
 
     get coding(): CodingSkills {
       const langs = {
-        expert: ["python", "js", "html", "processing"],
-        intermediate: ["arduino", "SQL", "java", "css"],
-        learning: ["c", "lua"]
+        expert: ["python", "js", "html", "processing", "css"],
+        intermediate: ["arduino", "SQL", "java", "c", "lua", "rust"],
+        learning: ["C++", "assembly"]
       };
 
       const specialties = ["full-stack developement", "ai", "minecraft modding"];
