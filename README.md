@@ -7,8 +7,8 @@
 <img src="https://github-readme-stats.vercel.app/api?username=Koen-mods&show_icons=true&theme=merko&count_private=true" alt="Moose1301" />
 
 ```ts
-type ContactInfo = [string, string];
-type LifeInfo = [string[], string[]];
+type ContactInfo = string;
+type LifeInfo = [string[], string];
 type CodingSkills = {
   langs: {
     expert: string[];
