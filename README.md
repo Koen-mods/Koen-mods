@@ -4,7 +4,7 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Koen-mods&layout=compact&theme=merko)
 
 ### github stats
-<img src="https://github-readme-stats.vercel.app/api?username=Koen-mods&show_icons=true&theme=merko&count_private=true" alt="Moose1301" />
+<img src="https://github-readme-stats.vercel.app/api?username=Koen-mods&show_icons=true&theme=merko&count_private=true" alt="stats" />
 
 ```ts
 type ContactInfo = string;
@@ -34,13 +34,13 @@ class Koen {
 
     get coding(): CodingSkills {
       const langs = {
-        expert: ["python", "js", "html", "processing", "css"],
-        intermediate: ["arduino", "SQL", "java", "c", "lua", "rust"],
-        learning: ["C++", "assembly"]
+        expert: ["python", "js", "html", "processing", "css", "C"],
+        intermediate: ["arduino", "SQL", "java", "C++", "lua", "rust"],
+        learning: ["assembly"]
       };
 
-      const specialties = ["full-stack developement", "ai", "minecraft modding"];
-      const ide = ["vscode", "intellij", "windows notepad", "pycharm", "processing 4", "arduino IDE", "sublime text"];
+      const specialties = ["full-stack developement", "ai", "minecraft modding", "language design", "OS developement"];
+      const ide = ["vscode", "intellij", "windows notepad", "pycharm", "processing 4", "arduino IDE", "sublime text", "WebStorm", "CLion"];
 
       return { langs, specialties, ide };
     }
